@@ -64,7 +64,8 @@ function Alert(input, randomNumber, alertMsg) {
 }
 
 function gameHistory(input, displayGuesses) {
-  guesses.push(input);
+  guesses.unshift(input);
+  console.log(guesses)
   displayGuesses.innerHTML = ""; // Clear previous history
 
   for (let i = 0; i < guesses.length; i++) {
