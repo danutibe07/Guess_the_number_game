@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.status{
+    width: 400px;
+    font-family: inherit;
+    color: white;
+    font-size: 30px;
+}
+
+.success{
+    background-color: green;
+}
+
+.error{
+    background-color: red;
+}
+
+.warning{
+    background-color: orange;
+}
+
+.history{
+    width: 400px;
+    background-color: purple;
+}
