@@ -34,7 +34,7 @@ The game is built using the following technologies:
 
 ## Screenshots
 
-Include relevant screenshots of the game to provide visual context. If you don't have any screenshots yet, you can skip this section for now and add them later.
+<img src="./images/guess.png" />
 
 ## Contributing
 
@@ -42,5 +42,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](MIT.md).
 
