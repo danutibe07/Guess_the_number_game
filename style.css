@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-top: -10em;
     overflow: hidden;
 }
 
@@ -78,4 +77,14 @@ section{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type="number"] {
+  -moz-appearance: textfield;
 }
