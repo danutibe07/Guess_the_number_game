@@ -6,13 +6,43 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -10em;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
 }
 
 .status{
-    width: 400px;
+    width: 350px;
     font-family: inherit;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 10px 65px;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    gap: 50px;
+}
+.check{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+.input{
+    font-size: 20px;
+    padding: 10px;
+    width: 350px;
 }
 
 .success{
@@ -28,6 +58,24 @@ body{
 }
 
 .history{
-    width: 400px;
-    background-color: purple;
+    width: 350px;
+    font-family: inherit;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    border-bottom: none;
+}
+
+li{
+    background-color: rgb(98, 128, 0);
+    width: 348px;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
